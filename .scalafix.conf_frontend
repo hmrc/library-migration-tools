@@ -165,7 +165,7 @@ patches.replaceSymbols = [
   },
   {
     from = "uk.gov.hmrc.play.http.logging.filters.FrontendLoggingFilter",
-    to   = "uk.gov.hmrc.play.http.frontend.filters.FrontendLoggingFilter"
+    to   = "uk.gov.hmrc.play.frontend.filters.FrontendLoggingFilter"
   },
   {
     from = "uk.gov.hmrc.play.http.UnauthorizedException",
