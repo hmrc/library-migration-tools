@@ -8,6 +8,10 @@ patches.replaceSymbols = [
     to   = "uk.gov.hmrc.http.BadRequestException"
   },
   {
+    from = "uk.gov.hmrc.play.http.RawReads",
+    to   = "uk.gov.hmrc.http.RawReads"
+  },
+  {
     from = "uk.gov.hmrc.play.http.HttpGet",
     to = "uk.gov.hmrc.http.HttpGet"
   },
@@ -26,10 +30,6 @@ patches.replaceSymbols = [
   {
     from = "uk.gov.hmrc.play.http.HttpPost",
     to   = "uk.gov.hmrc.http.HttpPost"
-  },
-  {
-    from = "uk.gov.hmrc.play.http.NotFoundException",
-    to   = "uk.gov.hmrc.http.NotFoundException"
   },
   {
     from = "uk.gov.hmrc.play.http.HttpReads.readSeqFromJsonProperty",
@@ -166,6 +166,138 @@ patches.replaceSymbols = [
   {
     from = "uk.gov.hmrc.play.http.logging.filters.FrontendLoggingFilter",
     to   = "uk.gov.hmrc.play.http.frontend.filters.FrontendLoggingFilter"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.UnauthorizedException",
+    to   = "uk.gov.hmrc.http.UnauthorizedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.PaymentRequiredException",
+    to   = "uk.gov.hmrc.http.PaymentRequiredException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.ForbiddenException",
+    to   = "uk.gov.hmrc.http.ForbiddenException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.NotFoundException",
+    to   = "uk.gov.hmrc.http.NotFoundException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.MethodNotAllowedException",
+    to   = "uk.gov.hmrc.http.MethodNotAllowedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.NotAcceptableException",
+    to   = "uk.gov.hmrc.http.NotAcceptableException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.ProxyAuthenticationRequiredException",
+    to   = "uk.gov.hmrc.http.ProxyAuthenticationRequiredException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.RequestTimeoutException",
+    to   = "uk.gov.hmrc.http.RequestTimeoutException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.ConflictException",
+    to   = "uk.gov.hmrc.http.ConflictException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.GoneException",
+    to   = "uk.gov.hmrc.http.GoneException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.LengthRequiredException",
+    to   = "uk.gov.hmrc.http.LengthRequiredException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.PreconditionFailedException",
+    to   = "uk.gov.hmrc.http.PreconditionFailedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.RequestEntityTooLargeException",
+    to   = "uk.gov.hmrc.http.RequestEntityTooLargeException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.RequestUriTooLongException",
+    to   = "uk.gov.hmrc.http.RequestUriTooLongException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.UnsupportedMediaTypeException",
+    to   = "uk.gov.hmrc.http.UnsupportedMediaTypeException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.RequestRangeNotSatisfiableException",
+    to   = "uk.gov.hmrc.http.RequestRangeNotSatisfiableException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.ExpectationFailedException",
+    to   = "uk.gov.hmrc.http.ExpectationFailedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.UnprocessableEntityException",
+    to   = "uk.gov.hmrc.http.UnprocessableEntityException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.LockedException",
+    to   = "uk.gov.hmrc.http.LockedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.FailedDependencyException",
+    to   = "uk.gov.hmrc.http.FailedDependencyException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.TooManyRequestException",
+    to   = "uk.gov.hmrc.http.TooManyRequestException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.InternalServerException",
+    to   = "uk.gov.hmrc.http.InternalServerException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.NotImplementedException",
+    to   = "uk.gov.hmrc.http.NotImplementedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.BadGatewayException",
+    to   = "uk.gov.hmrc.http.BadGatewayException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.ServiceUnavailableException",
+    to   = "uk.gov.hmrc.http.ServiceUnavailableException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.GatewayTimeout",
+    to   = "uk.gov.hmrc.http.GatewayTimeout"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.GatewayTimeoutException",
+    to   = "uk.gov.hmrc.http.GatewayTimeoutException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.HttpVersionNotSupportedException",
+    to   = "uk.gov.hmrc.http.HttpVersionNotSupportedException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.InsufficientStorageException",
+    to   = "uk.gov.hmrc.http.InsufficientStorageException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.Upstream4xxResponse",
+    to   = "uk.gov.hmrc.http.Upstream4xxResponse"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.Upstream5xxResponse",
+    to   = "uk.gov.hmrc.http.Upstream5xxResponse"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.HttpException",
+    to   = "uk.gov.hmrc.http.HttpException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.BadRequestException",
+    to   = "uk.gov.hmrc.http.BadRequestException"
   }
 ]
 debug.printSymbols = true
