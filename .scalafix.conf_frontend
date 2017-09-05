@@ -298,6 +298,14 @@ patches.replaceSymbols = [
   {
     from = "uk.gov.hmrc.play.http.BadRequestException",
     to   = "uk.gov.hmrc.http.BadRequestException"
+  },
+  {
+    from = "uk.gov.hmrc.play.http.UserId",
+    to   = "uk.gov.hmrc.http.UserId"
+  },
+  {
+    from = "uk.gov.hmrc.auth.frontend.Redirects",
+    to   = "uk.gov.hmrc.play.frontend.config.AuthRedirects"
   }
 ]
 debug.printSymbols = true
