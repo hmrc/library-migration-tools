@@ -1,9 +1,8 @@
 
 # library-migration-tools
 
-
-
-This is a placeholder README.md for a new repository
+Deprecated:
+See: [https://github.com/hmrc/scalafix-rules|https://github.com/hmrc/scalafix-rules] for the latest scalafix rules. 
 
 ### License
 
